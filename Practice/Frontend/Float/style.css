@@ -1,0 +1,26 @@
+img {
+  width: 30%;
+  float: left;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.overflow {
+  width: 250px;
+  background-color: darkgray;
+  padding: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  white-space: nowrap;
+}
+
+/* 
+  Step 1)
+  float: right 
+  float: none 
+  
+  Step 2)
+  add the <p class="overflow"> and try overflow: hidden;
+  
+  */

@@ -1,0 +1,46 @@
+html {
+  font-family: "Trebuchet MS", sans-serif;
+  color: white;
+  background-color: #444444;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+}
+
+body {
+  text-align: center;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+.top-5__list {
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
+a {
+  color: rgb(255, 245, 253, 0.5);
+}
+
+a:hover {
+  color: white;
+}
+
+.top-5__header {
+  color: blue;
+}
+
+.top-5__header.top-5__header--colorized {
+  color: pink;
+  font-size: 2rem;
+}
