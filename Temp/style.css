@@ -1,3 +1,12 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 .box {
   display: flex;
   width: 250px;
@@ -7,6 +16,7 @@
   color: #fff;
   font-family: Helvetica, sans-serif;
   font-size: 30px;
+  box-shadow: 10px 5px 5px black;
 }
 
 .box--1 {
@@ -28,4 +38,32 @@
   width: 25%;
   height: 25%;
   background: chartreuse;
+}
+
+ul {
+  display: inline-block;
+  border-style: solid;
+}
+
+.test {
+  height: 100px;
+  background-color: pink;
+  border-style: solid;
+  text-align: center;
+}
+
+p {
+  border-style: solid;
+}
+
+span {
+  border-style: solid;
+}
+
+.div1 {
+  border-style: solid;
+}
+.div2 {
+  border-style: solid;
+  border-width: 5px;
 }

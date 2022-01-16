@@ -1,5 +1,7 @@
 .container {
+  width: 60vh;
   display: flex;
+  border-style: solid;
 }
 
 .box {

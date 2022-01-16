@@ -1,0 +1,36 @@
+.pointers {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+.circle--blue {
+  background: #42ade2;
+}
+
+.circle--red {
+  background: #ff3333;
+  order: -1;
+}
+
+.circle--black {
+  background: #000;
+}
+
+.circle--green {
+  background: #2ce825;
+}
+
+section {
+  border: solid;
+}
