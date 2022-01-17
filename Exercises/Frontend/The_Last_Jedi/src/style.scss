@@ -1,0 +1,21 @@
+$color1: darkgray;
+
+.nav {
+  background-color: $color1;
+}
+
+.nav__list {
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  height: 30px;
+  list-style: none;
+  border: solid;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

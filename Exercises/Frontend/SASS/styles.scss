@@ -1,0 +1,42 @@
+$padding: 6px;
+
+nav {
+  ul {
+    margin: 0;
+    padding: $padding;
+    list-style: none;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    display: block;
+    padding: $padding 12px;
+    text-decoration: none;
+  }
+}
+
+.box {
+  width: 100%;
+  min-height: 50vh;
+  padding: 20px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+
+  &__element {
+    width: 20vw;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid red;
+  }
+  &__elemet-title {
+    width: 100%;
+    padding: 5px 15px;
+  }
+  &__title--emphasized {
+    font-weight: bold;
+  }
+}
