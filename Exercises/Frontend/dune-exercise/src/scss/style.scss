@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.container {
+  display: flex;
+  background-image: url(/img/dune-bg.jpeg);
+  background-size: cover;
+  
+
+h2 {
+  font-size: 1.5rem;
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-size: 4rem;
+}
+
+.container__one {
+    flex-direction: column;
+
+}
+.container__two {
+}

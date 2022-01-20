@@ -1,0 +1,15 @@
+.nav__main {
+  border-style: solid;
+  color: #ff0066;
+}
+
+.nav__main .nav__link {
+  color: #ff0066;
+  text-decoration: none;
+}
+
+.nav__main .nav__link--act:hover {
+  font-size: 20px;
+  color: black;
+}
+/*# sourceMappingURL=styles.css.map */
