@@ -11,6 +11,7 @@ html {
 
 .cards {
   display: flex;
+  justify-content: space-between;
 }
 
 .card {
@@ -18,7 +19,7 @@ html {
   height: 280px;
   margin: 30px;
   padding: 20px;
-  border-radius: 8px;
+  border-radius: 10px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
 }
 
