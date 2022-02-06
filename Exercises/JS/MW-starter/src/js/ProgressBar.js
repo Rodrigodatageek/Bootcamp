@@ -22,7 +22,7 @@ export class ProgressBar {
          <div class="btn-plus"></div>
       </div>
     `;
-
+  }
     const plusBtn = this.element.querySelector('.btn-plus');
     plusBtn.addEventListener('click', () => {
       this.value = Math.min(10, this.value + this.gradient);
@@ -36,4 +36,4 @@ export class ProgressBar {
 
     
     });
-}
+
