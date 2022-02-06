@@ -12,15 +12,13 @@ template = `<div class="employee">
         <img src="${photo_url}" alt="FULL NAME">
     </div>
     <div class="employee_info">
-        <div class="employee__full-name">${fullname}</div>
-        <div class="employee__occupation">${occupation}</div>
-        <div class="employee__residence">${place_of_residence}</div>
-        <div class="employee__age">Age:${age}</div>
+        <div class="employee__full-name">Full name: ${fullname}</div>
+        <div class="employee__occupation">Ocupation: ${occupation}</div>
+        <div class="employee__residence">Place of residence: ${place_of_residence}</div>
+        <div class="employee__age">Age: ${age}</div>
     </div>
 </div>`;
 
 const value = document.querySelector(".employees");
 
 value.innerHTML = template;
-
-const myname = "Rodrigo";
