@@ -1,2 +1,3 @@
-const ul = document.querySelector("ul");
-ul.innerHTML += "<li>List Item</li>";
+const myData = fetch(
+  `https://www.example.com/api/some/endpoint?param1=abc&param2=123`
+);
