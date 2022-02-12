@@ -1,12 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2px;
+}
+
 img {
   width: 300px;
   height: 400px;
 }
 
+#button {
+  width: 100px;
+}
+
+#input {
+  margin: 10px;
+  border-style: solid;
+}
+
 .btn__green {
-  background-color: rgb(118, 235, 180);
+  background-color: rgb(21, 143, 86);
 }
 
 .btn__gray {
-  background-color: rgb(109, 109, 117);
+  background-color: rgb(196, 196, 201);
 }

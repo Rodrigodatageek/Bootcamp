@@ -4,13 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
-    <input type="text" name="username" placeholder="username" id="name" /><br />
-    <input type="number" name="password" placeholder="password" id="password" />
-    <button onclick="checkPassword()">login</button>
+    <p id="par1">Some Text</p>
+    <button onclick="Highlighted()">Highlight</button>
+    <p>
+      Enter your name: <br />
+      <input type="text" id="username" />
+    </p>
 
+    <p id="greet"></p>
+    <button onclick="greeting()">Click me</button>
     <script src="./script.js"></script>
   </body>
 </html>

@@ -14,11 +14,11 @@ button {
 }
 
 .light-stop-on {
-  background-image: url(/img/stop-on.svg);
+  background-image: url(./img/stop-on.svg);
   background-size: contain;
 }
 
 .light-stop-off {
-  background-image: url(/img/bulb-off.png);
+  background-image: url(./img/stop-off.svg);
   background-size: contain;
 }

@@ -1,5 +1,6 @@
 document.getElementById("buttonSubmit").onclick = function () {
   let inputNumber = document.getElementById("userInput").value;
+  console.log(inputNumber);
   if (inputNumber > 59 || inputNumber < 1) {
     alert("Wrong input, please select number between 1 and 59.");
     return 1;

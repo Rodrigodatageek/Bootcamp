@@ -1,7 +1,7 @@
 const myFunction = () => {
   let myElement = document.querySelector("#button");
   let myinput = document.querySelector("#input").value;
-  myElement.textContent = myinput + " added to the  cart";
+  myElement.textContent = myinput + " in cart";
   myElement.className = "btn__green";
 };
 
