@@ -8,11 +8,26 @@
 </head>
 <body>
 
+
+<!-- Declare these variables and initialize them with values:
+
+first_name - holds your first name
+surname - holds your surname
+Now print them out in the following way: -->
+
 <!-- <?php
 $first_name = 'Rodrigo';
 $last_name = 'Fernandes';
 ?>
-<?php echo $first_name . ' ' . $last_name ?> -->
+
+<?php
+echo "First name: {$first_name} <br>
+Surname: {$last_name}";
+?> -->
+
+
+<!-- ------------------------------------------------------------------- -->
+
 
 <!-- Declare these variables and initialize them with values:
 
@@ -24,8 +39,12 @@ $year_of_birth = 1980;
 $height = 174
 ?>
 
-<?php echo "Year of birth:" . $year_of_birth?><br>
-<?php echo "Height: " . $height?> -->
+<?php echo "Year of birth: {$year_of_birth}<br>
+  Height: {$height} cm"?> -->
+
+
+
+<!-- ------------------------------------------------------------------- -->
 
 <!-- Define a constant SERVER_SOFTWARE with the name of your server software ('Apache').
 
@@ -38,6 +57,9 @@ define("SERVER_SOFTWARE", "Apache");
 echo "This server is running on " . SERVER_SOFTWARE;
 ?> -->
 
+<!-- ------------------------------------------------------------------ -->
+
+
 <!-- Define a constant MY_OS with the name of your operating system (e.g. 'Windows').
 
 Then use it in a sentence to print text like:
@@ -45,33 +67,27 @@ Then use it in a sentence to print text like:
 My operating system is Windows. -->
 
 <!-- <?php
-define("MY_OS", "Mac");
+define("MY_OS", "MacOs");
 
 echo "My operatin system is: " . MY_OS;
 ?> -->
+
+<!-- ------------------------------------------------------------------ -->
 
 <!-- Declare a function greet_world that will take no arguments and just print out (echo) the greeting Hello, world!
 
 Call the function to see the text. -->
 
-<!-- function raiseByOne($number)
-{
-    $number++;
- 
-    return $number;
-}
- 
-$result = raiseByOne(10); // $result == 11 -->
 
 <!-- <?php 
-function print_text() {
+function greet_world() {
     echo "Hellow, world!";
 }
-?>
-<?php 
-print_text();
+
+echo greet_world()
 ?> -->
 
+<!-- ------------------------------------------------------------------ -->
 
 <!-- Declare a function greet that will accept one argument named $whom and use its value to decide whom to greet.
 
@@ -83,24 +99,28 @@ Call the function twice with different arguments. -->
 <!-- <?php 
 
 function greet($whom) {
-    echo $whom . " Hello, Prague!";
-
+    echo " Hello, {$whom}!";
 }
  ?>
 <?php
 greet(" Rodrigo");
+
 greet(" Daniel");
 ?> -->
+
+<!-- ----------------------------------------------------------------- -->
+
 
 <!-- Declare a function greeting that will accept one argument named $whom and use its value to decide whom to greet.
 
 It will be similar to the function greet, but this one will return the resulting string instead of printing it.
 
 To see the return value you have to call the function and print (echo) its return value. -->
+
 <!-- 
 <?php
 function greeting($whom) {
-    return $whom . " " . "Hello, Prague!";
+    return "Hello, {$whom}!";
 
 }
 ?>
@@ -108,6 +128,8 @@ function greeting($whom) {
 <?php 
 echo greeting("Rodrigo");
 ?> -->
+
+<!-- ----------------------------------------------------------------- -->
 
 
 <!-- The functions greet and greeting do the same operation of making a string from two parts!
@@ -118,14 +140,17 @@ Make the code more DRY by using the function greeting within the function greet.
 
 <!-- <?php
 function new_greet($whom) {
-    echo $whom . " Hello, Prague first!", $whom . " " . "Hello, Prague!";
+    echo "Hello, {$whom}! ";
+    return "Hello, {$whom}!";
     
 
 }
 ?>
+
 <?php
-new_greet("Rodrigo");
+echo new_greet("Rodrigo");
 ?> -->
+
     
 </body>
 </html>
