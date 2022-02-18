@@ -4,7 +4,7 @@
 try {
     $connection = new PDO(
         'mysql:dbname=world;host=localhost;charset=utf8', // connection string
-        'root', // isername 
+        'root', // username 
         '' // password
     );
 } catch (PDOException $e) {
