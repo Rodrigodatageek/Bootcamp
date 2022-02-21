@@ -1,0 +1,12 @@
+{
+    "name": "rodrigofernandes/composer",
+    "authors": [
+        {
+            "name": "Rodrigo Fernandes",
+            "email": "Rodrigodatageek@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.4"
+    }
+}
